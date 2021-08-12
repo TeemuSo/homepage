@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
@@ -10,7 +9,7 @@ import Contact from './Components/Contact';
 import Awards from './Components/Awards';
 import Portfolio from './Components/Portfolio';
 
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const App = () => {
 
@@ -19,7 +18,7 @@ const App = () => {
   useEffect(() => {
     initializeGA()
     populateResumeData(setResumeData)
-  })
+  }, [])
 
     return (
       <div className="App">
@@ -27,7 +26,7 @@ const App = () => {
         <About data={resumeData.main}/>
         <Resume data={resumeData.resume}/>
         <Portfolio data={resumeData.portfolio}/>
-        <Awards data={resumeData.testimonials}/>
+        <Awards data={resumeData.awards}/>
         <Contact data={resumeData.main}/>
         <Footer data={resumeData.main}/>
       </div>

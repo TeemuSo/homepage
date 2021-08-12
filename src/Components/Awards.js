@@ -1,38 +1,38 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
+import Award from './Award'
 
-class Awards extends Component {
-  render() {
+const Awards = props => {
+   const [awards, setAwards] = useState()
+   // console.log(data)
 
-    if(this.props.data){
-      var testimonials = this.props.data.testimonials.map(function(testimonials){
-        return  <li key={testimonials.user}>
-            <blockquote>
-               <p>{testimonials.text}</p>
-               <cite>{testimonials.user}</cite>
-            </blockquote>
-         </li>
-      })
-    }
+   useEffect(() => {
+      if (props.data) {
+         setAwards(props.data.awards)
+      }
+   },[props.data])
 
-    return (
-      <section id="testimonials">
-      <div className="text-container">
-         <div className="row">
+   return (
+      <section id="awards">
+         <div className="container">
+            <div className="row">
 
-            <div className="two columns header-col">
-               <h1><span>Client Testimonials</span></h1>
-            </div>
+               <div className="two columns header-col">
+                  <h1><span>Awards</span></h1>
+               </div>
 
-            <div className="ten columns flex-container">
-                  <ul className="slides">
-                      {testimonials}
-                  </ul>
+               <div className="ten columns flex-container">
+                  {awards !== undefined ? (
+                     <ul>
+                        <Award header={awards[0].header} body={awards[0].body}></Award>
+                     </ul>
+                  )
+                     : (<div></div>)
+                  }
                </div>
             </div>
          </div>
-   </section>
-    );
-  }
+      </section>
+   )
 }
 
 export default Awards;
