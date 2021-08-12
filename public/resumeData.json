@@ -33,30 +33,30 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Aalto University",
+        "degree": "Masters programme in Machine Learning, Data Science and Artificial Intelligence",
+        "graduated": "August 2020 - On going",
+        "description": "Bayesian data analysis, deep learning, kernel methods, natural language processing"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Tampere University of Applied Sciences",
+        "degree": "Bachelor of engineering in automation engineering - intelligent machines and devices",
+        "graduated": "August 2016 - May 2020",
+        "description": "Electrical and automation engineering basic studies. Additional courses and skills in computer vision, autonomous robotics and machine learning."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Wärtsilä Oy",
+        "title": "Data Science Trainee",
+        "years": "May 2021 - Present",
+        "description": "Worked on a project where wide area of machine learning approaches were explored, such as deep learning and association learning. Also got familiarity in MLOPS in the form of building machine learning solution pipelines from scratch. Programming language: Python."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Innogiant Oy",
+        "title": "Mobile Developer Trainee",
+        "years": "March 2019 - August 2019",
+        "description": "Mobile development for native Android and iOS. Worked with Kotlin and Swift. Also got familiarity in using Git, CI/CD pipelines and Linux."
       }
     ],
     "skills": [
