@@ -3,8 +3,8 @@
     "name": "Teemu Sormunen",
     "occupation": "Data scient student",
     "description": "Exploring the latest machine learning trends.",
-    "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "image": "selfie-on-mountain.jpg",
+    "bio": "I'm a second year Master's degree student at Aalto University. I enjoy challenging myself with thought experiments, as well as with real life coding challenges. I enjoy spending my free time reading about latest advancements in machine learning and neuroscience. If I'm not busy working on my side-projects, you can find me enjoying the outdoors or playing the guitar.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "teemu.t.sormunen@gmail.com",
     "phone": "+358 50 500 3919",
@@ -18,24 +18,9 @@
     "resumedownload": "http://teemusormunen.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
       },
       {
         "name": "github",
