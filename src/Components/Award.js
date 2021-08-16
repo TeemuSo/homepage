@@ -13,7 +13,6 @@ const Award = ({ header, body }) => {
     return (
         <Container maxWidth="sm">
             <Typography component="div" style={{ backgroundColor: "#FFFFFF" }} />
-            eyy
         </Container>
     )
 }
