@@ -27,7 +27,7 @@ const Achievements = props => {
                            <li key={item.header}>
                               <Achievement
                                  header={item.header} body={item.body} solution={item.solution}
-                                 techStack={item.techStack} href={item.href} image={item.image}>
+                                 techStack={item.techStack} href={item.href} image={item.image} gif={item.gif}>
                               </Achievement>
                            </li>))}
                      </ul>

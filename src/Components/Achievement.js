@@ -27,19 +27,20 @@ const cardStyles = makeStyles({
     },
 })
 
-const Achievement = ({ header, body, solution, techStack, href, image }) => {
+const Achievement = ({ header, body, solution, techStack, href, image, gif }) => {
     const classes = cardStyles()
     
     return (
         
         <div className="row card">
             <div className="nine columns">
-                <h3 >{header}</h3>
+                <h3>{header}</h3>
                 
             </div>
-            <img src={"images/" + image} />
+            {image ? <img src={"images/" + image} alt="loading.." /> : <div/>}
+            {gif ? <img src={require("../assets/" + gif)} alt="loading.."/> : <div/>}
             <div className="nine columns">
-                <p>{body}</p>
+                <p><i>{body}</i></p>
                 <p>{solution}</p>
                 <p><b>Technology stack: </b>{techStack}</p>
                 <a href={href}>{href}</a>

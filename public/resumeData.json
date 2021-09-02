@@ -137,8 +137,13 @@
         "solution": "The challenge was about recognizing emotions from images. It's known that CNN's are able to extract meaningful features from images, and my interest was to see whether manual feature extraction could provide comparable results. I also compared whether CNN detects the same patterns as in Facial Action Coding System (FACS).",
         "techStack": ["AWS S3", ", ", "Python"],
         "image": "loopqprize-icon.jpeg"
+      },
+      {
+        "header": "Sauna Booking bot",
+        "body": "Built a bot that searches for free saunas automatically, and reports results to Telegram.",
+        "solution": "Each resident gets 5 resevations per month. Sauna slots that are still vacant after 15 minutes from the start of the slot can be booked without losing reservation count. Being a Sauna-lover, I Used Selenium to login and scrape sauna slots from resident sauna calendar and log them to Telegram channel. This makes sure I never miss free Sauna slots! ",
+        "techStack": ["Heroku", ", ", "Python"]
       }
-      
     ]
   }
 }
