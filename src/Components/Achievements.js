@@ -26,7 +26,8 @@ const Achievements = props => {
                         {achievements.map(item => (
                            <li key={item.header}>
                               <Achievement
-                                 header={item.header} body={item.body} href={item.href}>
+                                 header={item.header} body={item.body} solution={item.solution}
+                                 techStack={item.techStack} href={item.href} image={item.image}>
                               </Achievement>
                            </li>))}
                      </ul>

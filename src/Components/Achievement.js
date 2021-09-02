@@ -27,14 +27,23 @@ const cardStyles = makeStyles({
     },
 })
 
-const Achievement = ({ header, body, href }) => {
+const Achievement = ({ header, body, solution, techStack, href, image }) => {
     const classes = cardStyles()
-
+    
     return (
-        <div className="card">
-            <h3>{header}</h3>
-            <p>{body}</p>
-            <a href={href}>{href}</a>
+        
+        <div className="row card">
+            <div className="nine columns">
+                <h3 >{header}</h3>
+                
+            </div>
+            <img src={"images/" + image} />
+            <div className="nine columns">
+                <p>{body}</p>
+                <p>{solution}</p>
+                <p><b>Technology stack: </b>{techStack}</p>
+                <a href={href}>{href}</a>
+            </div>
         </div>
     )
 }
