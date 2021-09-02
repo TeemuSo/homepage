@@ -16,8 +16,8 @@ const Achievements = props => {
          <div className="container">
             <div className="row">
 
-               <div className="one columns">
-                  <h1><span>Achievements</span></h1>
+               <div className="columns">
+                  <h1>Achievements</h1>
                </div>
 
                <div className="ten columns flex-container">

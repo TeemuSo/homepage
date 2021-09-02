@@ -98,34 +98,10 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "header": "Sauna Booking bot",
+        "body": "Built a bot that searches for free saunas automatically, and reports results to Telegram.",
+        "solution": "Each resident gets 5 resevations per month. Sauna slots that are still vacant after 15 minutes from the start of the slot can be booked without losing reservation count. Being a Sauna-lover, I Used Selenium to login and scrape sauna slots from resident sauna calendar and log them to Telegram channel. This makes sure I never miss free Sauna slots! ",
+        "techStack": ["Heroku", ", ", "Python"]
       }
     ]
   },
@@ -133,16 +109,24 @@
     "achievements": [
       {
         "header": "Loop Q Prize 2021 winner",
-        "body": "Loop Q Prize 2021 is a machine learning competition for European university students. It's goal is to get students to discover the field of cognitive computing.",
-        "solution": "The challenge was about recognizing emotions from images. It's known that CNN's are able to extract meaningful features from images, and my interest was to see whether manual feature extraction could provide comparable results. I also compared whether CNN detects the same patterns as in Facial Action Coding System (FACS).",
+        "body": "Loop Q Prize 2021 is a machine learning competition for European university students. It's goal is to get students to discover the field of cognitive computing. The challenge was to create ML models and analyse facial expressions from images.",
+        "solution": "It's known that CNN's are able to extract meaningful features from images, and my interest was to see whether manual feature extraction could provide comparable results. I also compared whether CNN detects the same patterns as in Facial Action Coding System (FACS).",
         "techStack": ["AWS S3", ", ", "Python"],
-        "image": "loopqprize-icon.jpeg"
+        "image": "loopqprize-icon.jpeg",
+        "href": "https://www.loopqprize.ai/"
       },
       {
-        "header": "Sauna Booking bot",
-        "body": "Built a bot that searches for free saunas automatically, and reports results to Telegram.",
-        "solution": "Each resident gets 5 resevations per month. Sauna slots that are still vacant after 15 minutes from the start of the slot can be booked without losing reservation count. Being a Sauna-lover, I Used Selenium to login and scrape sauna slots from resident sauna calendar and log them to Telegram channel. This makes sure I never miss free Sauna slots! ",
-        "techStack": ["Heroku", ", ", "Python"]
+        "header": "Psyhack 2020 winning team",
+        "body": "Psyhack gathers psychology professionals, students and people with problem solving -mindset to solve challenges in the area of psychology. In 2020-edition the goal was to explore how smart technology could be used a mental health promoter, and how it can reduce mental health problems.",
+        "solution": "Our team consisted of two psychology students and me. We proposed a mobile application 'UniMind' to support University student mental wellbeing. The application proposal included a guided training program which consisted of small modules, helping student to build a toolkit for healthier studying habits. ",
+        "image": "psyhack-icon.png",
+        "href": "https://psyhack.fi/"
+      },
+      {
+        "header": "Bachelors thesis award 2020",
+        "body": "Tampereen Insinöörit ry chooses yearly the best engineering thesis from Tampere University of Applied Sciences. I won the best engineering thesis award of 2020.",
+        "solution": "In my thesis I explored 'Visual autonomous navigation in forest environment'. The goal was introduce reader to classical navigation stack used in autonomous vehicles, and as well to explore what research has been conducted regarding to visual-based navigation in forest environment. The thesis focused strognly on different simultaneous localization and mapping (SLAM) approaches. I also introduced results from a self-made RC-car that was capable of mapping environment and performing route calculations.",
+        "href": "https://www.theseus.fi/handle/10024/337102"
       }
     ]
   }

@@ -29,22 +29,19 @@ const cardStyles = makeStyles({
 
 const Achievement = ({ header, body, solution, techStack, href, image, gif }) => {
     const classes = cardStyles()
-    
+
     return (
-        
+
         <div className="row card">
             <div className="nine columns">
                 <h3>{header}</h3>
-                
-            </div>
-            {image ? <img src={"images/" + image} alt="loading.." /> : <div/>}
-            {gif ? <img src={require("../assets/" + gif)} alt="loading.."/> : <div/>}
-            <div className="nine columns">
+                <a href={href}>{href}</a>
                 <p><i>{body}</i></p>
                 <p>{solution}</p>
-                <p><b>Technology stack: </b>{techStack}</p>
-                <a href={href}>{href}</a>
+                {techStack ? <p><b>Technology stack: </b>{techStack}</p> : <div />}
             </div>
+            {image ? <img className="icon" src={"images/" + image} alt="loading.." /> : <div />}
+            {gif ? <img className="icon" src={require("../assets/" + gif)} alt="loading.." /> : <div />}
         </div>
     )
 }

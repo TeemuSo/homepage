@@ -453,6 +453,12 @@ img {
    max-width: 100%;
    height: auto;
 }
+
+.icon {
+   max-width: 125px;
+   height: auto;
+}
+
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
 
@@ -592,8 +598,11 @@ input[type="checkbox"] { display: inline; }
    background: #eeeeee;
    border-radius: 0.5em;
    padding: 0.5em;
-
 }
+
+#aa { margin-bottom: 12px; }
+
+#hh { font-size: 22px; line-height: 30px; margin-bottom: 3px; }
 
 /* ------------------------------------------------------------------ */
 /* d. Grid
