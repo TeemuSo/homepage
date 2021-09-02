@@ -654,7 +654,7 @@ call-to-action .button {
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
-#awards {
+#achievements {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -665,19 +665,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#awards .text-container {
+#achievements .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#awards h1 {
+#achievements h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#awards h1 span { display: none; }
-#awards .header-col { padding-top: 9px; }
-#awards .header-col h1:before {
+#achievements h1 span { display: none; }
+#achievements .header-col { padding-top: 9px; }
+#achievements .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -689,30 +689,30 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#awards blockquote {
+#achievements blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#awards blockquote:before { content: none; }
-#awards blockquote p {
+#achievements blockquote:before { content: none; }
+#achievements blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#awards blockquote cite {
+#achievements blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#awards blockquote cite:before { content: "\2014 \0020"; }
-#awards blockquote cite a,
-#awards blockquote cite a:visited { color: #8B9798; border: none }
+#achievements blockquote cite:before { content: "\2014 \0020"; }
+#achievements blockquote cite a,
+#achievements blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */

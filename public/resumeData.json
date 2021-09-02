@@ -129,8 +129,8 @@
       }
     ]
   },
-  "awards": {
-    "awards": [
+  "achievements": {
+    "achievements": [
       {
         "header": "Loop Q Prize 2021 winner",
         "body": "Loop Q Prize 2021 is a machine learning competition for European university. It's goal is to get students to discover the field of cognitive computing.",

@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
-import Awards from './Components/Awards';
+import Achievements from './Components/Achievements';
 import Portfolio from './Components/Portfolio';
 
 import React, { useState, useEffect } from 'react'
@@ -26,7 +26,7 @@ const App = () => {
         <About data={resumeData.main}/>
         <Resume data={resumeData.resume}/>
         <Portfolio data={resumeData.portfolio}/>
-        {/* <Awards data={resumeData.awards}/> */}
+        <Achievements data={resumeData.achievements}/>
         {/* <Contact data={resumeData.main}/> */}
         <Footer data={resumeData.main}/>
       </div>

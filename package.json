@@ -11,12 +11,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
+    "react-jupyter-notebook": "^0.3.2",
     "react-scripts": "4.0.3",
+    "sass": "^1.38.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "aws s3 build/ s3://teemusormunen.com --acl public-read",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
