@@ -16,7 +16,7 @@ const Achievements = props => {
          <div className="container">
             <div className="row">
 
-               <div className="columns">
+               <div className="columns hh">
                   <h1>Achievements</h1>
                </div>
 

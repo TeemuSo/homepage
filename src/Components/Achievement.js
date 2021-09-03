@@ -10,25 +10,8 @@ import Container from '@material-ui/core/Container';
 import network_visualization from "../python/network_visualization.json"
 import JupyterViewer from "react-jupyter-notebook";
 
-const cardStyles = makeStyles({
-    root: {
-        minWidth: 275,
-    },
-    bullet: {
-        display: 'inline-block',
-        margin: '0 2px',
-        transform: 'scale(0.8)',
-    },
-    title: {
-        fontSize: 14,
-    },
-    pos: {
-        marginBottom: 12,
-    },
-})
 
 const Achievement = ({ header, body, solution, techStack, href, image, gif }) => {
-    const classes = cardStyles()
 
     return (
 

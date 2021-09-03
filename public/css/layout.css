@@ -655,7 +655,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #achievements {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/busy-road-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -672,10 +672,16 @@ call-to-action .button {
 #achievements h1 {
    font: 24px/28px 'opensans-bold', sans-serif;
    text-transform: uppercase;
+   border-bottom: 3px solid #0F9095;
    letter-spacing: 3px;
    color: #fff;
    margin: 16px;
 }
+
+#achievements h3 {
+   margin-bottom: 24px;
+}
+
 #achievements h1 span { display: none; }
 #achievements .header-col { padding-top: 9px; }
 #achievements .header-col h1:before {
@@ -714,6 +720,10 @@ call-to-action .button {
 #achievements blockquote cite:before { content: "\2014 \0020"; }
 #achievements blockquote cite a,
 #achievements blockquote cite a:visited { color: #8B9798; border: none }
+
+#achievements p {
+   line-height: 30px;
+}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */

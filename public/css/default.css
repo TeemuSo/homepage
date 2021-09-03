@@ -600,9 +600,9 @@ input[type="checkbox"] { display: inline; }
    padding: 0.5em;
 }
 
-#aa { margin-bottom: 12px; }
-
-#hh { font-size: 22px; line-height: 30px; margin-bottom: 3px; }
+.card:hover {
+   transform: scale3d(1.01, 1.01, 1)
+}
 
 /* ------------------------------------------------------------------ */
 /* d. Grid
