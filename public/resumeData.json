@@ -4,14 +4,14 @@
     "occupation": "Data Science student",
     "description": "Exploring the latest machine learning trends",
     "image": "profilepic.jpeg",
-    "bio": "I'm a second year Master's degree student at Aalto University. I enjoy challenging myself with thought experiments, as well as with real life coding challenges. I enjoy spending my free time reading about latest advancements in machine learning and neuroscience. If I'm not busy working on my side-projects, you can find me enjoying the outdoors or playing the guitar.",
+    "bio": "I'm a third year Master's degree student at Aalto University. I enjoy challenging myself with thought experiments, as well as with real life coding challenges. I enjoy spending my free time reading about latest advancements in machine learning and neuroscience. If I'm not busy working on my side-projects, you can find me enjoying the outdoors or playing the guitar.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "teemu.t.sormunen@gmail.com",
     "phone": "+358 50 500 3919",
     "address": {
-      "street": "Jämeräntaival 7",
-      "city": "Espoo",
-      "zip": "02150"
+      "street": "Sarvijaakonkatu 1C A 3",
+      "city": "Tampere",
+      "zip": "33540"
     },
     "website": "http://www.teemusormunen.com",
     "resumedownload": "http://teemusormunen.com",
@@ -38,10 +38,22 @@
         "description": "Bayesian data analysis, deep learning, kernel methods, natural language processing"
       },
       {
+        "school": "Instituto Tecnológico Autónomo de México",
+        "degree": "Exchange studies",
+        "graduated": "January 2022 - June 2022",
+        "description": "Was at Mexico for exchange studies. Took courses in marketing, data-driven business decision and managerial skills."
+      },
+      {
         "school": "Tampere University of Applied Sciences",
         "degree": "Bachelor of engineering in automation engineering - intelligent machines and devices",
         "graduated": "August 2016 - May 2020",
         "description": "Electrical and automation engineering basic studies. Additional courses and skills in computer vision, autonomous robotics and machine learning."
+      },
+      {
+        "school": "Brno University of Technology",
+        "degree": "Exchange studies",
+        "graduated": "September 2018 - February 2019",
+        "description": "Was at Czech Republic for exchange studies. Took courses in programming, robotics and UI/UX design."
       }
     ],
     "work": [
@@ -49,7 +61,7 @@
         "company": "Wärtsilä Oy",
         "title": "Data Science Trainee",
         "years": "May 2021 - Present",
-        "description": "Worked on a project where wide area of machine learning approaches were explored, such as deep learning and association learning. Also got familiarity in MLOPS in the form of building machine learning solution pipelines from scratch. Programming language: Python."
+        "description": "Worked with data science projects during the exploration phase, implementation phase and the productisation phase. Projects in computer vision and NLP. Programming language: Python."
       },
       {
         "company": "Innogiant Oy",
